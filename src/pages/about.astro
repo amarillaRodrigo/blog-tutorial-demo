@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import '../styles/global.css';
+import Navigation from "../components/Navigation.astro";
 const pageTitle = "Sobre Mi";
 
 const identity = {
@@ -74,4 +75,5 @@ const textCase = "uppercase";
       <p>My goal is not 3 days.</p>
     )
   }
+  <Navigation />
 </BaseLayout>
